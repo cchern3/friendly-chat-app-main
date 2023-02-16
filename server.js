@@ -11,7 +11,7 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3006;
 
-const server = require('https').createServer(app);
+const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
