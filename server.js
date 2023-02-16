@@ -9,7 +9,7 @@ const hbs = exphbs.create({ helpers });
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3006;
 
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
