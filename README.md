@@ -10,7 +10,7 @@ Introducing Friendly, our new chat application. Friendly is designed to help you
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributions)
-* [Tests](#tests)
+* [Deployed Application](#deployed)
 * [Questions](#questions)
 
 ## Installation
@@ -44,9 +44,9 @@ Contributors:
 * Issa Diouf
 * Laura Trapaga
 
-## Tests
+## Deployed Application
 
-The following is needed to run tests: N/A
+https://friendly-chatapp.herokuapp.com/
 
 ## Questions
 
