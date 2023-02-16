@@ -29,7 +29,7 @@ The following necessary dependencies must be installed to run the application:
 
 ## Usage
 
-To use this application:
+To use this application: To use this application: Create an account, and fill in the required user information. Once the account has been created, you will be directed to the chat home page where you can select to talk to other users. Your recent chat list will be located on the left-hand side of the screen. Sending a message to the user, will automatically place their name into the recent chat list. You have the option to talk to other users by selecting "Home" at the top left hand side of the navigation bar. Additionally, you are able to "sign out" or "delete your account" when hovering over your name on the right-hand side of the navigation bar.
 
 ## License
 
