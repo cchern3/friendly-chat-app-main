@@ -1,0 +1,15 @@
+// fetch request to logout user
+async function logoutUserForm() {
+  const response = await fetch('/api/users/logout', {
+    method: 'post',
+    headers: { 'Content-Type': 'application/json' }
+  });
+
+  if (response.ok) {
+    document.location.replace('/');
+  } else {
+    alert(response.statusText);
+  }
+}
+
+document.querySelector('#logout-btn').addEventListener('click', logoutUserForm);
